@@ -252,4 +252,5 @@ nav {
 .bookreading-btn:hover {
     background-color:#4A735C;
     border:3px solid #88A695;
+    transition:.3s;
 }
