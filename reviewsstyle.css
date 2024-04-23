@@ -230,11 +230,6 @@ nav {
     border-top-width:3px;
 }
 
-.bookreading {
-    margin-bottom:15px;
-    bottom:10%;
-}
-
 .bookreading-btn {
     background-color: #88A695;
     text-decoration:none;
@@ -244,7 +239,7 @@ nav {
     border-radius:7px;
     border: 3px solid #64786D;
     right:240px;
-    top:0px;
+    top:250px;
     width:125px;
     height:20px;
     margin-bottom:auto;
