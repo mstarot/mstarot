@@ -1,15 +1,32 @@
 h1 {
-    color: #ffffff;
+    color:#88A695;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width:99%;
-    height:50%;
-    position:absolute;
-    top:40%;
+    height:auto;
     text-align:center;
-    text-decoration:none;
-    margin:auto;
+    vertical-align:center;
+    font-size:27px;
+    padding:2px;
+    margin-top:350px;
+    position:absolute;
+}
+
+h2 {
+    font-family:'New Century Schoolbook', 'TeX Gyre Schola', serif;
     font-size:35px;
-    color: #ffffff;
+    font-weight:normal;
+    font-style:italic;
+    text-align:center;
+    color:white;
+    bottom:100px;
+    position:absolute;
+    width:99%;
+}
+
+h3 {
+    font-weight:normal;
+    font-family:'Verdana';
+    text-align:center;
 }
 
 body {
@@ -23,43 +40,9 @@ nav {
     justify-content:center;
 }
 
-h2 {
-    text-decoration:none;
-    color:white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width:99%;
-    height:40%;
-    position:absolute;
-    text-align:center;
-    margin:auto;
-    padding-top:500px;
-    font-size:20px;
-    font-weight:lighter;
-}
+
 
 .reviewform-btn {
-    text-decoration:none;
-    background-color:#88A695;
-    padding:5px;
-    border:3px solid #64786D;
-    margin:auto;
-    border-radius:7px;
-    width:100px;
-    bottom:270px;
-    right:47%;
-    color:white;
-    text-align:center;
-    margin:auto;
-    position:absolute;
-}
-
-.reviewform-btn:hover {
-    background-color:#4A735C;
-    border:3px solid #88A695;
-    transition:.3s;
-}
-
-.bookreading-btn {
     background-color: #88A695;
     text-decoration:none;
     padding:5px;
@@ -68,36 +51,18 @@ h2 {
     border-radius:7px;
     border: 3px solid #64786D;
     right:240px;
-    top:8px;
-    width:125px;
+    width:110px;
     height:20px;
-    margin-bottom:auto;
+    bottom:80px;
     text-align:center;
-    margin-right:16px;
+    margin-right:33%;
     transition:.6s;
     position:absolute;
 }
 
-.bookreading-btn:hover {
+.reviewform-btn:hover {
     background-color:#4A735C;
     border:3px solid #88A695;
-    transition:.3s;
-}
-
-.instagram-btn {
-    text-decoration:none;
-    padding: 10px;
-    text-align: center;
-    color: #ffffff;
-    position:absolute;
-    top:92%;
-    left:1%;
-    width:23px;
-    height:auto;
-}
-
-.instagram-btn:hover {
-    color:#64786D;
 }
 
 .navbar {
@@ -132,7 +97,7 @@ h2 {
     border-radius:7px;
     border: 3px solid #64786D;
     position:absolute;
-    top: 8px;
+    top: 8px;;
     width:65px;
     right:0px;
 }
@@ -150,35 +115,6 @@ h2 {
     position:absolute;
     top:8px;
     right:0px;
-}
-
-.general-btn {
-    background-color: #304B3C;
-    text-decoration:none;
-    padding: 5px;
-    text-align: center;
-    color: #ffffff;
-    margin-right:16px;
-    border-radius:7px;
-    border: 3px solid #64786D;
-    position:absolute;
-    top:8px;
-    width:125px;
-    right:90px;
-}
-
-.general-btn:hover {
-    background-color:#88A695;
-    padding:5px;
-    text-align:center;
-    margin-right:16px;
-    border-radius:7px;
-    color:#ffffff;
-    text-decoration:none;
-    transition:.6s;
-    position:absolute;
-    top:8px;
-    right:90px;
 }
 
 .dropbtn {
@@ -290,4 +226,40 @@ h2 {
     border-top-style:solid;
     border-top-color:#64786D;
     border-top-width:3px;
+}
+
+.bookreading {
+    margin-bottom:15px;
+    bottom:10%;
+}
+
+.bookreading-btn {
+    background-color: #88A695;
+    text-decoration:none;
+    padding:5px;
+    text-align: center;
+    color: #ffffff;
+    border-radius:7px;
+    border: 3px solid #64786D;
+    right:240px;
+    top:8px;
+    width:125px;
+    height:20px;
+    margin-bottom:auto;
+    text-align:center;
+    margin-right:16px;
+    transition:.6s;
+    position:absolute;
+}
+
+.bookreading-btn:hover {
+    background-color:#4A735C;
+    border:3px solid #88A695;
+}
+
+.socials {
+    width:30px;
+    position:absolute;
+    bottom:5px;
+    height:auto;
 }
