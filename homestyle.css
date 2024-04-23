@@ -23,6 +23,42 @@ nav {
     justify-content:center;
 }
 
+h2 {
+    text-decoration:none;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:99%;
+    height:40%;
+    position:absolute;
+    text-align:center;
+    margin:auto;
+    padding-top:500px;
+    font-size:20px;
+    font-weight:lighter;
+}
+
+.reviewform-btn {
+    text-decoration:none;
+    background-color:#88A695;
+    padding:5px;
+    border:3px solid #64786D;
+    margin:auto;
+    border-radius:7px;
+    width:100px;
+    bottom:270px;
+    right:47%;
+    color:white;
+    text-align:center;
+    margin:auto;
+    position:absolute;
+}
+
+.reviewform-btn:hover {
+    background-color:#4A735C;
+    border:3px solid #88A695;
+    transition:.3s;
+}
+
 .bookreading-btn {
     background-color: #88A695;
     text-decoration:none;
@@ -45,6 +81,7 @@ nav {
 .bookreading-btn:hover {
     background-color:#4A735C;
     border:3px solid #88A695;
+    transition:.3s;
 }
 
 .instagram-btn {
