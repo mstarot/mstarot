@@ -40,7 +40,9 @@ nav {
     justify-content:center;
 }
 
-
+.reviewform {
+    width:100%;
+}
 
 .reviewform-btn {
     background-color: #88A695;
@@ -55,8 +57,8 @@ nav {
     height:20px;
     bottom:80px;
     text-align:center;
-    margin-right:33%;
     transition:.6s;
+    right:43%;
     position:absolute;
 }
 

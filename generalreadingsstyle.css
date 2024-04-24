@@ -71,7 +71,7 @@ nav {
     border-radius:7px;
     border: 3px solid #64786D;
     position:absolute;
-    top: 8px;;
+    top:8px;
     width:65px;
     right:0px;
 }
@@ -229,6 +229,11 @@ nav {
     border-top-style:solid;
     border-top-color:#64786D;
     border-top-width:3px;
+}
+
+.bookreading {
+    margin-bottom:15px;
+    bottom:10%;
 }
 
 .bookreading-btn {
