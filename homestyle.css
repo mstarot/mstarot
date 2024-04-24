@@ -263,5 +263,9 @@ nav {
 
 .patreon-btn {
     left:10px;
+    width:30px;
+    position:absolute;
+    bottom:5px;
+    height:auto;
 }
 
