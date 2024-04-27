@@ -80,7 +80,8 @@ nav {
     border-radius:7px;
     border: 3px solid #64786D;
     position:absolute;
-    top: 8px;;
+    top:8px;
+    margin-top:8px;
     width:65px;
     right:0px;
 }
@@ -143,6 +144,7 @@ nav {
     font-family:Trebuchet;
     right:180px;
     width:140px;
+    margin-top:8px;
     height:36px;
     cursor:pointer;
     -webkit-border-radius:7px;
