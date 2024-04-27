@@ -272,3 +272,12 @@ nav {
     height:auto;
     transform:scale(.036);
 }
+
+.youtube-btn {
+    left:80px;
+    width:30px;
+    position:absolute;
+    bottom:-343px;
+    height:auto;
+    transform:scale(.036);
+}
