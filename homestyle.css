@@ -1,14 +1,15 @@
 h1 {
     color:#88A695;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width:95%;
+    width:98%;
     height:auto;
     text-align:center;
     vertical-align:center;
     font-size:27px;
-    padding:5px;
-    margin-top:320px;
+    padding:2px;
+    margin-top:280px;
     position:absolute;
+    display:flex;
 }
 
 h2 {
@@ -18,9 +19,10 @@ h2 {
     font-style:italic;
     text-align:center;
     color:white;
-    bottom:100px;
-    position:absolute;
-    width:99%;
+    bottom:20%;
+    display:flex;
+    justify-content:center;
+    padding-top:750px;
 }
 
 h3 {
@@ -38,34 +40,6 @@ nav {
     overflow:auto;
     display:flex;
     justify-content:center;
-}
-
-.reviewform {
-    width:100%;
-    align-items:center;
-    align-content:center;
-    text-align:center;
-}
-
-.reviewform-btn {
-    background-color: #88A695;
-    text-decoration:none;
-    padding:5px;
-    text-align: center;
-    color: #ffffff;
-    border-radius:7px;
-    border: 3px solid #64786D;
-    width:110px;
-    height:20px;
-    right:46%;
-    bottom:80px;
-    transition:.6s;
-    position:absolute;
-}
-
-.reviewform-btn:hover {
-    background-color:#4A735C;
-    border:3px solid #88A695;
 }
 
 .navbar {
@@ -100,9 +74,9 @@ nav {
     border-radius:7px;
     border: 3px solid #64786D;
     position:absolute;
-    top:8px;
-    margin-top:8px;
+    top:16px;
     width:65px;
+    height:20px;
     right:0px;
 }
 
@@ -117,7 +91,6 @@ nav {
     text-decoration:none;
     transition:.6s;
     position:absolute;
-    top:8px;
     right:0px;
 }
 
@@ -207,6 +180,7 @@ nav {
     display:block;
     border-bottom-right-radius:7px;
     border-bottom-left-radius:7px;
+    border-top-style:none;
     right:180px;
     padding-top:0px;
     padding-bottom:0px;
@@ -218,6 +192,8 @@ nav {
     border-bottom-right-radius:7px;
     border-bottom-left-radius:7px;
     right:180px;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:0px;
 }
 
 .otheritem {
@@ -242,7 +218,7 @@ nav {
     border-radius:7px;
     border: 3px solid #64786D;
     right:240px;
-    top:8px;
+    top:16px;
     width:125px;
     height:20px;
     margin-bottom:auto;
@@ -259,25 +235,44 @@ nav {
 
 .socials {
     width:30px;
+    display:flex;
+    gap:350px;
     position:absolute;
-    bottom:5px;
-    height:auto;
+    align-items:center;
+    justify-content:space-between;
+    margin-top:150px;
+    bottom:20px;
+    height:25px;
+    transform:scale(.04);
 }
 
-.patreon-btn {
-    left:35px;
-    width:30px;
+.reviewformbtn {
+    width:99%;
+    align-items:center;
+    align-content:center;
+    text-align:center;
+    justify-content:center;
+    display:flex;
     position:absolute;
-    bottom:-381px;
-    height:auto;
-    transform:scale(.036);
+    padding-top:20px;
 }
 
-.youtube-btn {
-    left:80px;
-    width:30px;
+.reviewform-btn {
+    background-color: #88A695;
+    text-decoration:none;
+    padding:5px;
+    text-align: center;
+    color: #ffffff;
+    border-radius:7px;
+    border: 3px solid #64786D;
+    width:110px;
+    height:20px;
+    transition:.6s;
+    margin-bottom:20px;
     position:absolute;
-    bottom:-343px;
-    height:auto;
-    transform:scale(.036);
+}
+
+.reviewform-btn:hover {
+    background-color:#4A735C;
+    border:3px solid #88A695;
 }
