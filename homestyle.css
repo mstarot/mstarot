@@ -19,10 +19,10 @@ h2 {
     font-style:italic;
     text-align:center;
     color:white;
-    bottom:20%;
+    bottom:10px;
     display:flex;
     justify-content:center;
-    padding-top:750px;
+    padding-top:650px;
 }
 
 h3 {
@@ -39,6 +39,7 @@ nav {
     width:auto;
     overflow:auto;
     display:flex;
+    flex-direction:row;
     justify-content:center;
 }
 
@@ -48,12 +49,14 @@ nav {
     right:0px;
     background-color:rgba(136, 166, 149, 0);
     height:55px;
+    display:flex;
+    flex-direction:row;
     position:relative;
 }
 
 .home-btn {
     background-color: #304B3C;
-    padding: 0px;
+    padding:0px;
     color: #ffffff;
     margin-right:160;
     position:absolute;
@@ -237,17 +240,17 @@ nav {
     width:30px;
     display:flex;
     gap:350px;
-    position:absolute;
+    position:relative;
     align-items:center;
     justify-content:space-between;
     margin-top:150px;
-    bottom:20px;
+    bottom:0px;
     height:25px;
     transform:scale(.04);
 }
 
 .reviewformbtn {
-    width:99%;
+    width:98%;
     align-items:center;
     align-content:center;
     text-align:center;
