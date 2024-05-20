@@ -8,7 +8,8 @@ h1 {
     font-size:27px;
     padding:2px;
     margin-top:280px;
-    position:absolute;
+    align-content:center;
+    width:99%;
     display:flex;
 }
 
@@ -22,6 +23,8 @@ h2 {
     bottom:10px;
     display:flex;
     justify-content:center;
+    align-content:center;
+    width:99%;
     padding-top:650px;
 }
 
@@ -77,6 +80,7 @@ nav {
     border-radius:7px;
     border: 3px solid #64786D;
     position:absolute;
+    transition:.6s;
     top:16px;
     width:65px;
     height:20px;
@@ -97,122 +101,29 @@ nav {
     right:0px;
 }
 
-.dropbtn {
-    background-color: #304B3C;
-    text-decoration:none;
-    padding: 5px;
-    text-align: center;
-    color: #ffffff;
-    margin-right:16px;
-    border: 3px solid #64786D;
-    border-radius:7px;
-    top:8px;
-    font-size:16px;
-    font-family:Trebuchet;
-    right:180px;
-    margin-top:8px;
-    width:140px;
-    height:36px;
-    cursor:pointer;
-    -webkit-border-radius:7px;
-    -moz-border-radius:7px;
-    -ms-border-radius:7px;
-    -o-border-radius:7px;
+.typesofreadings {
+    display:flex;
+    width:99%;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    flex-direction:column;
+    padding-top:25px;
 }
 
-.dropbtn:hover {
-    background-color: #88A695;
-    text-decoration:none;
-    padding: 5px;
-    text-align: center;
-    color: #ffffff;
-    top:8px;
-    font-size:16px;
-    font-family:Trebuchet;
-    cursor:pointer;
-    right:180px;
-}
-
-.dropdown {
+.textandreading {
+    width:99%;
+    display:flex;
     position:absolute;
-    display:inline-block;
-    right:90px;
-    top:8px;
-    border-radius:0px;
-    -webkit-border-radius:0px;
-    -moz-border-radius:0px;
-    -ms-border-radius:0px;
-    -o-border-radius:0px;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    vertical-align:center;
+    gap:2px;
+    padding-top:30px;
 }
 
-.dropdown-content {
-    display:none;
-    background-color:#304B3C;
-    color:#ffffff;
-    border: 3px solid #64786D;
-    border-top-style:none;
-    width:134px;
-    padding-top:5px;
-    padding-bottom:5px;
-    margin-top:-5px;
-    box-shadow: 0px 8px 16px 0px rgba (0,0,0,0.2)
-}
-
-.dropdown-content a {
-    color:#ffffff;
-    text-align:center;
-    width:134px;
-    top:20px;
-    text-decoration:none;
-    display:block;
-    right:180px;
-    padding-top:2px;
-    padding-bottom:2px;
-}
-
-.dropdown-content a:hover {
-    background-color:#88A695;
-    color:#ffffff;
-    right:180px;
-    top:20px;
-    padding-top:2px;
-    padding-bottom:2px;
-}
-
-.dropdown:hover .dropdown-content {
-    display:block;
-    border-bottom-right-radius:7px;
-    border-bottom-left-radius:7px;
-    border-top-style:none;
-    right:180px;
-    padding-top:0px;
-    padding-bottom:0px;
-}
-
-.dropdown:hover .dropbtn {
-    background-color:#88A695;
-    transition:.6s;
-    border-bottom-right-radius:7px;
-    border-bottom-left-radius:7px;
-    right:180px;
-    border-bottom-left-radius:0px;
-    border-bottom-right-radius:0px;
-}
-
-.otheritem {
-    border-bottom-left-radius:5px;
-    border-bottom-right-radius:5px;
-    right:180px;
-}
-
-.loveandrelationshipsitem  {
-    margin-top:2px;
-    border-top-style:solid;
-    border-top-color:#64786D;
-    border-top-width:3px;
-}
-
-.bookreading-btn {
+.typesofreadings-btn {
     background-color: #88A695;
     text-decoration:none;
     padding:5px;
@@ -220,18 +131,14 @@ nav {
     color: #ffffff;
     border-radius:7px;
     border: 3px solid #64786D;
-    right:240px;
-    top:16px;
-    width:125px;
+    width:135px;
     height:20px;
-    margin-bottom:auto;
     text-align:center;
-    margin-right:16px;
     transition:.6s;
-    position:absolute;
+    position:relative;
 }
 
-.bookreading-btn:hover {
+.typesofreadings-btn:hover {
     background-color:#4A735C;
     border:3px solid #88A695;
 }
@@ -250,7 +157,7 @@ nav {
 }
 
 .reviewformbtn {
-    width:98%;
+    width:99%;
     align-items:center;
     align-content:center;
     text-align:center;
