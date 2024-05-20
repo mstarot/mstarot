@@ -1,0 +1,449 @@
+h1 {
+  color:#88A695;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height:99%;
+  text-align:center;
+  vertical-align:center;
+  font-size:27px;
+  padding:2px;
+  margin-top:7%;
+}
+
+h2 {
+  font-family:'New Century Schoolbook', 'TeX Gyre Schola', serif;
+  font-size:35px;
+  font-weight:normal;
+  font-style:italic;
+  text-align:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  align-content:center;
+}
+
+h3 {
+  font-weight:normal;
+  font-family:'Verdana';
+  text-align:center;
+  padding-bottom:5px;
+}
+
+  body {
+  background-color: #304B3C;
+  text-decoration:none;
+  }
+  nav {
+  width:auto;
+  overflow:auto;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  }
+  .buttons {
+  display:flex;
+  position:relative;
+  justify-content:center;
+  width:99%;
+  align-items:center;
+  align-content:center;
+  flex-direction:column;
+  margin-top:1px;
+  top:20px;
+  }
+  .love-btn {
+  background-color: #304B3C;
+  text-decoration:none;
+  padding:5px;
+  margin-bottom:20px;
+  text-align: center;
+  color: #ffffff;
+  border-radius:7px;
+  border: 3px solid #64786D;
+  position:relative;
+  font-size:20px;
+  transition:.6s;
+  width:200px;
+  height:45px;
+  }
+  .love-btn:hover {
+  background-color:#88A695;
+  border: 3px solid #64786D;
+  padding:5px;
+  text-align:center;
+  border-radius:7px;
+  color:#ffffff;
+  text-decoration:none;
+  transition:.6s;
+  }
+  .money-btn {
+  background-color: #304B3C;
+  text-decoration:none;
+  padding:5px;
+  margin-bottom:20px;
+  text-align: center;
+  color: #ffffff;
+  border-radius:7px;
+  border: 3px solid #64786D;
+  position:relative;
+  font-size:20px;
+  transition:.6s;
+  width:200px;
+  height:45px;
+  }
+  .money-btn:hover {
+  background-color:#88A695;
+  border: 3px solid #64786D;
+  padding:5px;
+  text-align:center;
+  border-radius:7px;
+  color:#ffffff;
+  text-decoration:none;
+  transition:.6s;
+  }
+  .selfblank-btn {
+  background-color: #304B3C;
+  text-decoration:none;
+  padding:5px;
+  margin-bottom:20px;
+  text-align: center;
+  color: #ffffff;
+  border-radius:7px;
+  border: 3px solid #64786D;
+  position:relative;
+  font-size:20px;
+  transition:.6s;
+  width:200px;
+  height:25px;
+  }
+  .selfblank-btn:hover {
+  background-color:#88A695;
+  border: 3px solid #64786D;
+  padding:5px;
+  text-align:center;
+  border-radius:7px;
+  color:#ffffff;
+  text-decoration:none;
+  transition:.6s;
+  }
+  .general-btn {
+  background-color: #304B3C;
+  text-decoration:none;
+  padding:5px;
+  margin-bottom:20px;
+  text-align: center;
+  color: #ffffff;
+  border-radius:7px;
+  border: 3px solid #64786D;
+  position:relative;
+  font-size:20px;
+  transition:.6s;
+  width:200px;
+  height:25px;
+  }
+  .general-btn:hover {
+  background-color:#88A695;
+  border: 3px solid #64786D;
+  padding:5px;
+  text-align:center;
+  border-radius:7px;
+  color:#ffffff;
+  text-decoration:none;
+  transition:.6s;
+  }
+  .other-btn {
+  background-color: #304B3C;
+  text-decoration:none;
+  padding:5px;
+  margin-bottom:20px;
+  text-align: center;
+  color: #ffffff;
+  border-radius:7px;
+  border: 3px solid #64786D;
+  position:relative;
+  font-size:20px;
+  transition:.6s;
+  width:200px;
+  height:25px;
+  }
+  .other-btn:hover {
+  background-color:#88A695;
+  border: 3px solid #64786D;
+  padding:5px;
+  text-align:center;
+  border-radius:7px;
+  color:#ffffff;
+  text-decoration:none;
+  transition:.6s;
+  }
+  .freetypes {
+  width:99%;
+  margin-top:0px;
+  vertical-align:center;
+  justify-content:center;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  align-content:center;
+  }
+
+.freelovereadings {
+  display:flex;
+  position:relative;
+  width:210px;
+  margin-left:-100px;
+}
+
+.freemoneyreadings {
+  display:flex;
+  position:relative;
+  width:190px;
+}
+
+.freeselfreadings {
+  display:flex;
+  position:relative;
+  width:190px;
+}
+
+.freegeneralreadings {
+  display:flex;
+  position:relative;
+  width:120px;
+}
+
+.freeotherreadings {
+  display:flex;
+  position:relative;
+  width:100px;
+}
+
+.selfblankreadings {
+  color:white;
+  color:white;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  gap:2px;
+  align-items:center;
+  align-content:center;
+  text-decoration:none;
+}
+
+.generalreadings {
+  color:white;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  gap:2px;
+  align-items:center;
+  align-content:center;
+  text-decoration:none;
+}
+
+.questionsgeneral {
+  padding-bottom:60px;
+}
+
+.questionsgeneralrelationship {
+  padding-bottom:60px;
+}
+
+.careerandmoneyreadings {
+  color:white;
+}
+
+.questionscareerandmoney {
+  padding-bottom:60px;
+}
+
+.questionsselfblank {
+  padding-bottom:60px;
+}
+
+.yesornobundle {
+  padding-bottom:60px;
+}
+
+.otherreadings {
+  color:white;
+}
+
+.orderbutton {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  align-content:center;
+}
+
+.order-btn {
+  background-color: #304B3C;
+  text-decoration:none;
+  padding: 5px;
+  text-align: center;
+  color: #ffffff;
+  margin-right:16px;
+  border-radius:7px;
+  border: 3px solid #64786D;
+  transition:.6s;
+  top:16px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  align-content:center;
+  width:65px;
+  height:20px;
+  right:0px;
+}
+
+.order-btn:hover {
+  background-color:#88A695;
+  border: 3px solid #64786D;
+  padding:5px;
+  text-align:center;
+  margin-right:16px;
+  border-radius:7px;
+  color:#ffffff;
+  text-decoration:none;
+  transition:.6s;
+  right:0px;
+}
+
+.home-btn {
+  background-color: #304B3C;
+  color: #ffffff;
+  transform:scale(.22);
+  height:20px;
+  display:flex;
+  top:40px;
+  left:-200px;
+  align-items:center;
+  align-content:center;
+  position:absolute;
+  }
+
+  .backbtn {
+    top:-280px;
+    margin-left:7px;
+    position:absolute;
+  }
+  
+  .back-btn {
+    transform:scale(.08);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+    cursor:pointer;
+    position:absolute;
+    margin-top:820px;
+    width:70px;
+  }
+  
+  .backbtnarea {
+    display:flex;
+    position:relative;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+    width:100%;
+    height:60px;
+  }
+  
+  .back {
+    display:flex;
+    transform:scale(.08);
+    position:relative;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+    margin-top:100px;
+    width:100%;
+  }
+  
+  .back:hover {
+    opacity:70%;
+    transition:.6s;
+  }
+  
+  .back-btn:hover {
+    opacity:70%;
+    transition:.6s;
+  }
+
+.lovereadings {
+  color:white;
+}
+
+.generalrelationshipsreadings {
+  color:white;
+}
+
+.topnav {
+  overflow:hidden;
+  padding:15px 55px;
+  padding-right:0px;
+  display:flex;
+  width:99%;
+  flex-direction:row;
+  justify-content:flex-end;
+}
+
+.topnav a {
+  float:left;
+  display:flex;
+  text-align:center;
+  padding:5px 20px;
+  text-decoration:none;
+  text-align:center;
+  position:relative;
+  font-size:17px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:white;
+}
+
+.topnav a:hover {
+  background-color:#64786D;
+  border-radius:3px;
+  transition:.6s;
+}
+
+.topnav a.active {
+  background-color:#88A695;
+}
+
+.topnav .icon {
+  display:none;
+}
+
+@media screen and (max-width: 800px) {
+  .topnav a {
+    display: none;
+  }
+  .topnav a.icon {
+    display: flex;
+  }
+  .topnav .icon:hover {
+    background-color:#64786D;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .topnav.responsive {
+    position: relative;
+    display:flex;
+    flex-direction:column;
+    width:270px;
+  }
+  .topnav.responsive a.icon {
+    position: relative;
+    transition:.6s;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+    transition:.6s;
+  }
+}
