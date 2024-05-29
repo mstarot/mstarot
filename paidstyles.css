@@ -19,6 +19,7 @@ h2 {
   justify-content:center;
   align-items:center;
   align-content:center;
+  color:white;
 }
 
 h3 {
@@ -26,6 +27,7 @@ h3 {
   font-family:'Verdana';
   text-align:center;
   padding-bottom:5px;
+  color:white;
 }
 
   body {
@@ -335,7 +337,7 @@ h3 {
     align-content:center;
     cursor:pointer;
     position:absolute;
-    margin-top:820px;
+    margin-top:20px;
     width:70px;
   }
   
@@ -447,3 +449,4 @@ h3 {
     transition:.6s;
   }
 }
+
