@@ -153,10 +153,11 @@ nav {
     position:relative;
     align-items:center;
     justify-content:space-between;
-    margin-top:80px;
+    margin-top:90px;
     bottom:0px;
     height:25px;
     transform:scale(.04);
+    color:white;
 }
 
 .reviewformbtn {
@@ -190,3 +191,6 @@ nav {
     border:3px solid #88A695;
 }
 
+.reviewform {
+    padding-top:150px;
+}
