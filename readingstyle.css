@@ -1,0 +1,177 @@
+
+body {
+    background-color:#1A2715;
+    display:block;
+}
+
+.logo {
+    width:10px;
+    height:10px;
+  }
+
+.topnav {
+    width:100%;
+    overflow:hidden;
+    font-family: balthazar, sans-serif;
+  }
+
+.topnav a {
+    float:right;
+    display:block;
+    color:#D7BD66;
+    text-align:center;
+    padding:20px;
+    text-decoration:none;
+    font-size:20px;
+    top:160px;
+  }
+
+.topnav a:hover {
+    background-color: #364639;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+    }
+
+  .topnav .icon {
+    display:none;
+  }
+
+  @media screen and (max-width: 1700px) {
+    #logo {
+        position:relative;
+        display:none;
+    }
+  }
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    .topnav a {
+        display:none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+      width:30px;
+    }
+  }
+
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+        text-align:center;
+        align-content:center;
+        float:none;
+    }
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding:20px;
+      width:30px;
+    }
+    .topnav.responsive a {
+      display: block;
+      float:none;
+      text-align: center;
+      width:100px;
+    }
+  }
+
+/* Readings */
+.heading {
+    font-size:25px;
+    font-family:Baskerville, serif;
+    color:#BC9B4E;
+    text-align:center;
+    margin:auto;
+    max-width:100%;
+    align-items:center;
+    position:relative;
+    padding-top:40px;
+  }
+
+.readings {
+    margin:auto;
+    position:relative;
+    max-width:100%;
+    align-items:center;
+    text-align:center;
+}
+
+.readingheading {
+    max-width:1000px;
+    height:auto;
+    position:relative;
+    text-align:center;
+    margin:auto;
+    margin-bottom:-120px;
+    margin-top:80px;
+    color:#FDF090;
+    font-family: Tangerine, "Lucida Handwriting", "Brush Script MT", cursive;
+    font-size:30px;
+}
+
+.readingparagraph {
+    font-family:"Baskerville", serif;
+    font-size:25px;
+    color:#BE9E51;
+    padding-top:60px;
+    margin:auto;
+    padding-bottom:25px;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+.bookreading {
+    width:350px;
+    height:45px;
+    text-decoration:none;
+    background: #BC9B4E;
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius:5px;
+    padding:10px;
+    font-family:"EB Garamond", "Playfair", "Libre Caslon Text", "Copperplate", "Monaco", Sans-serif;
+    font-size:25px;
+    color:#030707;
+    font-weight:900;
+    border:none;
+}
+
+.bookreading::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(0deg, transparent, transparent 2%,#fdf39c71);
+    transform: rotate(-45deg);
+    transition: all 1s ease-out;
+    opacity: 0;
+}
+
+.bookreading:hover {
+    box-shadow: 0 0 50px rgb(254, 240, 151);
+    transform:scale(1.04);
+    transition:all 1s ease-out;
+}
+
+.bookreading:hover::before {
+    opacity: 1;
+    transform: rotate(-45deg) translateY(100%);
+    transition:all 1s ease-out;
+}
+
+hr.solid1 {
+    border:1px solid #A48431;
+    max-width:100%;
+    margin-top:100px;
+}
+
