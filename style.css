@@ -4,79 +4,6 @@ body {
     display:block;
 }
 
-.foggy-background {
-  width:210vh;
-  height: 100vh;
-  position: absolute;
-  top: 100px;
-  left: 0px;
-  opacity:0.05;
-  animation-name: foggy;
-  animation-iteration-count: infinite;
-  animation-duration: 5s;
-  animation-timing-function: linear;
-}
-
-@keyframes foggy {
-  0% {
-    translate: 0px 0 0px;
-  }
-  50% {
-    translate: -100px 0 0px;
-  }
-  100% {
-    translate: 0px 0 0px;
-  }
-}
-
-.icon-image {
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  opacity: 0;
-  transform: scale(0.5);
-  transition: opacity 0.75s, transform 0.25s;
-}
-
-.icon-image:hover {
-  opacity: 1;
-  transform: scale(1, 1);
-}
-
-.one {
-  top: 100px;
-  left: 50px;
-}
-
-.two {
-  top: 230px;
-  left: 400px;
-}
-
-.three {
-  top: 150px;
-  right: 50px;
-}
-
-.four {
-  top: 200px;
-  left: 500px;
-}
-
-.five {
-  bottom: 100px;
-  left: 50px;
-}
-
-.six {
-  bottom: 100px;
-  right: 320px;
-}
-
-.seven {
-  bottom: 350px;
-  right: 750px;
-}
 
 
 /* colors */
@@ -267,6 +194,16 @@ hr.solid1 {
 }
 
 .p4 {
+  font-family:"Baskerville", serif;
+  font-size:25px;
+  color:#BE9E51;
+  padding-top:60px;
+  margin:auto;
+  padding-left:70px;
+  padding-right:70px;
+}
+
+.p5 {
   font-family:"Baskerville", serif;
   font-size:25px;
   color:#BE9E51;
@@ -1002,9 +939,6 @@ ul li a:hover:nth-child(4) {
       float: right;
       display: block;
       width:30px;
-    }
-    .foggy-background {
-      display:none;
     }
   }
 
