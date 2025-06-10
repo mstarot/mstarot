@@ -90,8 +90,8 @@ display:none;
   height:50px;
   margin:auto;
   max-width:300px;
-  margin-top:250px;
-  margin-bottom:300px;
+  margin-top:150px;
+  margin-bottom:220px;
   position:relative;
   top:140px;
   border:solid 2px #fef19195;
@@ -147,6 +147,19 @@ box-shadow: 0 0 50px rgb(254, 240, 151);
 opacity: 1;
 transform: rotate(-45deg) translateY(100%);
 }
+
+/* Cinzel Font Title */
+.title {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+  position:relative;
+  font-size:100px;
+  text-align:center;
+  margin-bottom:-200px;
+  color:#d6be64;
+}
+
 
 /* Divider */
 hr.solid1 {
