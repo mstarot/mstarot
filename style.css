@@ -176,6 +176,24 @@ max-width:100%;
   text-align:center;
   }
 
+.reviewssection {
+  margin:auto;
+  position:relative;
+  max-width:100%;
+  margin-top:100px;
+  margin-bottom:100px;
+}
+
+.title4 {
+font-size:25px;
+font-family:Baskerville, serif;
+color:#BC9B4E;
+text-align:center;
+margin:auto;
+align-items:center;
+position:relative;
+}
+
 /* About section */
 .aboutsection {
 margin:auto;
@@ -260,6 +278,15 @@ height:auto;
 max-width:100%;
 position:relative;
 margin-top:75px;
+}
+
+hr.solid3 {
+border:1px solid #A48431;
+margin:auto;
+height:auto;
+max-width:100%;
+position:relative;
+margin-top:7px;
 }
 
 /* Services section */
@@ -388,6 +415,52 @@ margin:auto;
 padding-bottom:30px;
 padding-left:70px;
 padding-right:70px;
+}
+
+.formbutton {
+width:350px;
+height:45px;
+text-decoration:none;
+background: #BC9B4E;
+display: flex;
+margin:auto;
+margin-bottom:40px;
+justify-content: center;
+align-items: center;
+position: relative;
+overflow: hidden;
+border-radius:5px;
+padding:10px;
+font-family:"EB Garamond", "Playfair", "Libre Caslon Text", "Copperplate", "Monaco", Sans-serif;
+font-size:25px;
+color:#030707;
+font-weight:900;
+border:none;
+}
+
+.formbutton::before {
+content: '';
+position: absolute;
+top: -50%;
+left: -50%;
+width: 200%;
+height: 200%;
+background: linear-gradient(0deg, transparent, transparent 2%,#fdf39c71);
+transform: rotate(-45deg);
+transition: all 1s ease-out;
+opacity: 0;
+}
+
+.formbutton:hover {
+box-shadow: 0 0 50px rgb(254, 240, 151);
+transform:scale(1.04);
+transition:all 1s ease-out;
+}
+
+.formbutton:hover::before {
+opacity: 1;
+transform: rotate(-45deg) translateY(100%);
+transition:all 1s ease-out;
 }
 
 /* General Readings Button */
@@ -655,8 +728,7 @@ margin:auto;
 height:auto;
 max-width:100%;
 position:relative;
-margin-top:75px;
-margin-bottom:20px;
+margin-top:3500px;
 }
 
 /* Contact section */
